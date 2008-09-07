@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		510F80730E73A23A006941E5 /* ProcessorsController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 510F80720E73A23A006941E5 /* ProcessorsController.rb */; };
 		512DD7E60E73A7D000C1D46F /* Processor.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 512DD7E50E73A7D000C1D46F /* Processor.xcdatamodel */; };
+		512DD7F60E73AB0300C1D46F /* String.rb in Resources */ = {isa = PBXBuildFile; fileRef = 512DD7F50E73AB0300C1D46F /* String.rb */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -27,6 +28,7 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		510F80720E73A23A006941E5 /* ProcessorsController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ProcessorsController.rb; sourceTree = "<group>"; };
 		512DD7E50E73A7D000C1D46F /* Processor.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Processor.xcdatamodel; sourceTree = "<group>"; };
+		512DD7F50E73AB0300C1D46F /* String.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = String.rb; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* oi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oi.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +89,7 @@
 		29B97314FDCFA39411CA2CEA /* oi */ = {
 			isa = PBXGroup;
 			children = (
+				512DD7F40E73AAB700C1D46F /* Core Extensions */,
 				7756732906782D8800D1FEB8 /* Models */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -123,6 +126,15 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		512DD7F40E73AAB700C1D46F /* Core Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				512DD7F50E73AB0300C1D46F /* String.rb */,
+			);
+			name = "Core Extensions";
+			path = core_ext;
 			sourceTree = "<group>";
 		};
 		7756732906782D8800D1FEB8 /* Models */ = {
@@ -181,6 +193,7 @@
 				A556B73E090E84D500F8C62D /* oiAppDelegate.rb in Resources */,
 				A556B742090E84DE00F8C62D /* rb_main.rb in Resources */,
 				510F80730E73A23A006941E5 /* ProcessorsController.rb in Resources */,
+				512DD7F60E73AB0300C1D46F /* String.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
