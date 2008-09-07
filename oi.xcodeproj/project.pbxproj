@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		510F80730E73A23A006941E5 /* ProcessorsController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 510F80720E73A23A006941E5 /* ProcessorsController.rb */; };
-		770B37ED0679A11B001EADE2 /* oi_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* oi_DataModel.xcdatamodel */; };
+		512DD7E60E73A7D000C1D46F /* Processor.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 512DD7E50E73A7D000C1D46F /* Processor.xcdatamodel */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -26,7 +26,7 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		510F80720E73A23A006941E5 /* ProcessorsController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ProcessorsController.rb; sourceTree = "<group>"; };
-		770B37EC0679A11B001EADE2 /* oi_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = oi_DataModel.xcdatamodel; sourceTree = "<group>"; };
+		512DD7E50E73A7D000C1D46F /* Processor.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Processor.xcdatamodel; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* oi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oi.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,7 +128,7 @@
 		7756732906782D8800D1FEB8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				770B37EC0679A11B001EADE2 /* oi_DataModel.xcdatamodel */,
+				512DD7E50E73A7D000C1D46F /* Processor.xcdatamodel */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -192,7 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
-				770B37ED0679A11B001EADE2 /* oi_DataModel.xcdatamodel in Sources */,
+				512DD7E60E73A7D000C1D46F /* Processor.xcdatamodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
