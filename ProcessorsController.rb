@@ -30,8 +30,8 @@ class ProcessorsController < OSX::NSArrayController
     protocol = ( bits = uri.split('/') ).shift
     bits.map {|bit| CGI.escape bit }
     all_bits = bits.clone
-    pro = getProcessor(protocol).to_ruby # Ditto about RubyCocoa
-    return false if ( pro ).nil?
+    processor = getProcessor(protocol).to_ruby # Ditto about RubyCocoa
+    return false if ( processor ).nil?
     
     processor.gsub /\%(?!\%)(.)/ do
       case $1
