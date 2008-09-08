@@ -41,7 +41,7 @@
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSUIElement</key>
-	<string>1</string>
+	<integer>1</integer>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 </dict>
